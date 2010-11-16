@@ -1,0 +1,25 @@
+html {}
+
+@font-face {
+       font-family: Comic Book;
+       src: local("Comic Book"), url("comicbook.ttf") format("truetype");
+       font-weight: normal;
+       font-style: normal;
+}
+
+body {
+	font-family: Comic Book, sans-serif;
+	background:#666;
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {background: url(background.png);}
+
+.canvas {padding-left: 180px}
+
+.title {font-size: 30px; text-align: right; padding-right: 250px;}
+
+.img {color:rgba(0, 0, 0, 0)}
+
+img {float:left;max-width: 600px;max-height: 500px;}
